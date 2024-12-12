@@ -20,15 +20,17 @@ namespace MyApp
             //val1 unchanged because value types store copies of data.
             #endregion
 
-            #region Type Assignment and Modification 
+            #region Reference Type Assignment and Modification 
             string str1 = "Youssef";
             string str2 = str1; 
             str2 = " Essam";  
-            Console.WriteLine($"Str1: {str1}, Str2: {str2}");
+            Console.WriteLine($"Str1: {str1}, Str2: {str2}");   
             // Modifying str2 creates a new string
             
 
             #endregion
+
+
 
 
         }
